@@ -1,4 +1,5 @@
-require 'puppet/provider/elastic_user_command'
+#require 'puppet/provider/elastic_user_command'
+require File.join(File.dirname(__FILE__), '..','..','..', 'puppet/provider/elastic_user_command')
 
 Puppet::Type.type(:elasticsearch_user).provide(
   :elasticsearch_users,
